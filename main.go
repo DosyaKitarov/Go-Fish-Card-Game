@@ -312,7 +312,7 @@ func takeCard(you *[]card, oponent *[]card, vs string) {
 		fmt.Println(" ______________________________________________________")
 		fmt.Println("|  __________________________________________________  |")
 		fmt.Println("| |                                                  | |")
-		fmt.Printf("| |          oponent gets %v cards from you!          | |\n", len(indexses))
+		fmt.Printf("| |          Oponent gets %v cards from you!          | |\n", len(indexses))
 		fmt.Println("| |__________________________________________________| |")
 		fmt.Println("|______________________________________________________|")
 		time.Sleep(time.Second * 1)
